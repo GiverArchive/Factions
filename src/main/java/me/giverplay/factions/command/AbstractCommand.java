@@ -24,7 +24,7 @@ public abstract class AbstractCommand extends BukkitCommand
     super(name);
     
     setPermissionMessage("No permission.");
-    setPermission("fascinante.command." + name);
+    setPermission("factions.command." + name);
   }
   
   @Override
@@ -86,7 +86,7 @@ public abstract class AbstractCommand extends BukkitCommand
       }
       
       CommandMap map = (CommandMap) commandMap.get(Bukkit.getServer());
-      map.register("fascinante", this);
+      map.register("factions", this);
     }
     catch(NoSuchFieldException | IllegalAccessException e)
     {
