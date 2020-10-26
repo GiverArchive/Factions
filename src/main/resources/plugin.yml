@@ -1,0 +1,8 @@
+name: Factions
+version: ${project.version}
+main: me.giverplay.factions.Factions
+load: STARTUP
+softdepend: [ SimpleClans ]
+authors: [ GiverPlay007 ]
+description: A simple factions regions plugin
+website: https://github.com/foca-enterprises
